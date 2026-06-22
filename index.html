@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SONU | Hacker Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<!-- Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanlines"></div>
+<canvas id="matrix"></canvas>
+
+<nav>
+<div class="logo">SONU <span class="red-anim">dev &lt; / &gt; c++</span></div>
+<ul>
+<li><a href="#home">HOME</a></li>
+<li><a href="#about">ABOUT</a></li>
+<li><a href="#skills">SKILLS</a></li>
+<li><a href="#projects">PROJECTS</a></li>
+<li><a href="#contact">CONTACT</a></li>
+</ul>
+</nav>
+
+<section class="hero" id="home">
+<h1 class="glitch-title hero-name" data-text="SONU">
+    <span class="letter">S</span><span class="letter">O</span><span class="letter">N</span><span class="letter">U</span>
+</h1>
+<p class="subtitle reveal">B.Tech Student</p>
+
+<div class="typing-container reveal">
+<span class="prompt">$ Termux &lt;/&gt;</span> &gt; <span class="typing-text"></span><span class="cursor">_</span>
+</div>
+
+
+
+<div class="social reveal">
+<a href="https://discord.gg/3kFnQUdcY" class="soc-discord"><i class="fab fa-discord"></i> DISCORD</a>
+<a href="#" class="soc-github"><i class="fab fa-github"></i> GITHUB</a>
+<a href="https://instagram.com/brx_zzzzzzz" class="soc-insta"><i class="fab fa-instagram"></i> @brx_zzzzzzz</a>
+<a href="mailto:sbaji6357@gmail.com" class="soc-email"><i class="fas fa-envelope"></i> sbaji6357@gmail.com</a>
+</div>
+</section>
+
+<section id="about">
+<div class="section-header reveal">
+    <h2 class="title glitch" data-text=">_ ABOUT_ME.TXT">&gt;_ ABOUT_ME.TXT</h2>
+    <hr class="divider">
+</div>
+
+<div class="about-grid">
+
+<div class="about-text-container reveal">
+    <p class="terminal-prompt">sonu@terminal:~$ cat about.txt</p>
+    <p class="about-desc">
+    Hey! I'm <b class="glow-text">SONU</b>, a passionate B.Tech CSE student who loves to code,
+    build servers, design interfaces, and explore the world of Cyber
+    Security. I breathe technology and live in the Matrix.
+    </p>
+
+    <div class="stats-container">
+        <div class="stat-box hover-glitch">
+            <h3>7+</h3>
+            <span>SKILLS</span>
+        </div>
+        <div class="stat-box hover-glitch">
+            <h3>10+</h3>
+            <span>PROJECTS</span>
+        </div>
+        <div class="stat-box hover-glitch">
+            <h3>&infin;</h3>
+            <span>PASSION</span>
+        </div>
+    </div>
+</div>
+
+<div class="gallery reveal">
+<img src="images/111111.png" class="gallery-img">
+<img src="images/2222222.png" class="gallery-img">
+<img src="images/3333333333333.png" class="gallery-img">
+<img src="images/4444444444.png" class="gallery-img">
+</div>
+
+</div>
+</section>
+
+<section id="skills">
+<div class="section-header reveal">
+    <h2 class="title glitch" data-text=">_ SKILLS.JSON">&gt;_ SKILLS.JSON</h2>
+    <hr class="divider">
+</div>
+
+<div class="skills">
+
+<div class="card border-green reveal">
+    <div class="card-icon"><i class="fas fa-globe" style="color: #00bfff;"></i></div>
+    <div class="card-title">HTML</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="95%" style="background:#00ff00; box-shadow: 0 0 10px #00ff00;"></div>
+        <span class="pct">95%</span>
+    </div>
+</div>
+
+<div class="card border-red reveal">
+    <div class="card-icon"><i class="fas fa-palette" style="color: #ffff00;"></i></div>
+    <div class="card-title">CSS</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="90%" style="background:#ff0000; box-shadow: 0 0 10px #ff0000;"></div>
+        <span class="pct">90%</span>
+    </div>
+</div>
+
+<div class="card border-green reveal">
+    <div class="card-icon"><i class="fas fa-bolt" style="color: #ffff00;"></i></div>
+    <div class="card-title">JavaScript</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="85%" style="background:#00ff00; box-shadow: 0 0 10px #00ff00;"></div>
+        <span class="pct">85%</span>
+    </div>
+</div>
+
+<div class="card border-red reveal">
+    <div class="card-icon"><i class="fas fa-circle" style="color: #00bfff;"></i></div>
+    <div class="card-title">Discord Server Dev</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="92%" style="background:#ff0000; box-shadow: 0 0 10px #ff0000;"></div>
+        <span class="pct">92%</span>
+    </div>
+</div>
+
+<div class="card border-green reveal">
+    <div class="card-icon"><i class="fas fa-robot" style="color: #fff;"></i></div>
+    <div class="card-title">Bot Development</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="80%" style="background:#00ff00; box-shadow: 0 0 10px #00ff00;"></div>
+        <span class="pct">80%</span>
+    </div>
+</div>
+
+<div class="card border-red reveal">
+    <div class="card-icon"><i class="fas fa-code" style="color: #00ff00;"></i></div>
+    <div class="card-title">Website Design</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="88%" style="background:#ff0000; box-shadow: 0 0 10px #ff0000;"></div>
+        <span class="pct">88%</span>
+    </div>
+</div>
+
+<div class="card border-green reveal">
+    <div class="card-icon"><i class="fas fa-lock" style="color: #ffff00;"></i></div>
+    <div class="card-title">Cyber Security Basics</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="75%" style="background:#00ff00; box-shadow: 0 0 10px #00ff00;"></div>
+        <span class="pct">75%</span>
+    </div>
+</div>
+
+<div class="card border-red reveal">
+    <div class="card-icon"><i class="fas fa-chart-line" style="color: #00ff00;"></i></div>
+    <div class="card-title">TRADER</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="85%" style="background:#ff0000; box-shadow: 0 0 10px #ff0000;"></div>
+        <span class="pct">85%</span>
+    </div>
+</div>
+
+<div class="card border-green reveal">
+    <div class="card-icon"><i class="fas fa-credit-card" style="color: #ff0000;"></i></div>
+    <div class="card-title">CARDER</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="90%" style="background:#00ff00; box-shadow: 0 0 10px #00ff00;"></div>
+        <span class="pct">90%</span>
+    </div>
+</div>
+
+<div class="card border-red reveal">
+    <div class="card-icon"><i class="fas fa-brain" style="color: #00bfff;"></i></div>
+    <div class="card-title">AI CODER</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="95%" style="background:#ff0000; box-shadow: 0 0 10px #ff0000;"></div>
+        <span class="pct">95%</span>
+    </div>
+</div>
+
+<div class="card border-green reveal">
+    <div class="card-icon"><i class="fas fa-shield-alt" style="color: #ffff00;"></i></div>
+    <div class="card-title">ANTI NUKER</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="98%" style="background:#00ff00; box-shadow: 0 0 10px #00ff00;"></div>
+        <span class="pct">98%</span>
+    </div>
+</div>
+
+<div class="card border-red reveal">
+    <div class="card-icon"><i class="fas fa-bomb" style="color: #ff0000;"></i></div>
+    <div class="card-title">NUKER</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="90%" style="background:#ff0000; box-shadow: 0 0 10px #ff0000;"></div>
+        <span class="pct">90%</span>
+    </div>
+</div>
+
+<div class="card border-green reveal">
+    <div class="card-icon"><i class="fas fa-terminal" style="color: #00ff00;"></i></div>
+    <div class="card-title">TERMUX CMD</div>
+    <div class="progress-container">
+        <div class="progress-bar" data-width="92%" style="background:#00ff00; box-shadow: 0 0 10px #00ff00;"></div>
+        <span class="pct">92%</span>
+    </div>
+</div>
+
+</div>
+</section>
+
+<section id="projects">
+<div class="section-header reveal">
+    <h2 class="title glitch" data-text=">_ PROJECTS.LOG">&gt;_ PROJECTS.LOG</h2>
+    <hr class="divider">
+</div>
+
+<div class="projects">
+
+<div class="project-card reveal">
+    <div class="card-scanline"></div>
+    <span class="proj-tag" style="background: rgba(0,255,0,0.1); color: #00ff00;">WEB</span>
+    <h3>CyberShield Dashboard</h3>
+    <p>Real-time threat monitoring dashboard with live WebSocket feeds and animated visualizations.</p>
+    <div class="tech-pills">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+    </div>
+</div>
+
+<div class="project-card reveal">
+    <div class="card-scanline"></div>
+    <span class="proj-tag" style="background: rgba(0,191,255,0.1); color: #00bfff;">BOT</span>
+    <h3>Discord AutoBot</h3>
+    <p>Feature-rich Discord bot with moderation, music, games, and slash commands using Discord.js.</p>
+    <div class="tech-pills">
+        <span>Node.js</span><span>Discord.js</span><span>API</span>
+    </div>
+</div>
+
+<div class="project-card reveal">
+    <div class="card-scanline"></div>
+    <span class="proj-tag" style="background: rgba(255,165,0,0.1); color: #ffa500;">SERVER</span>
+    <h3>HackerProxy</h3>
+    <p>High-performance reverse proxy with rate limiting, DDoS protection, and detailed logging.</p>
+    <div class="tech-pills">
+        <span>Nginx</span><span>Linux</span><span>Bash</span>
+    </div>
+</div>
+
+<div class="project-card reveal">
+    <div class="card-scanline"></div>
+    <span class="proj-tag" style="background: rgba(255,0,0,0.1); color: #ff0000;">CYBER</span>
+    <h3>PenTest Toolkit</h3>
+    <p>Python-based penetration testing toolkit for network scanning, port analysis, and vulnerability checks.</p>
+    <div class="tech-pills">
+        <span>Python</span><span>Nmap</span><span>Scapy</span>
+    </div>
+</div>
+
+<div class="project-card reveal">
+    <div class="card-scanline"></div>
+    <span class="proj-tag" style="background: rgba(0,255,0,0.1); color: #00ff00;">UI/UX</span>
+    <h3>NeoPanel UI</h3>
+    <p>Sleek admin panel template with dark mode, real-time charts, and glassmorphism design system.</p>
+    <div class="tech-pills">
+        <span>HTML</span><span>CSS</span><span>Chart.js</span>
+    </div>
+</div>
+
+<div class="project-card reveal">
+    <div class="card-scanline"></div>
+    <span class="proj-tag" style="background: rgba(0,0,255,0.1); color: #4169e1;">TEST</span>
+    <h3>Bot Stress Tester</h3>
+    <p>Automated stress testing framework for Discord bots with load simulation and regression checks.</p>
+    <div class="tech-pills">
+        <span>Python</span><span>pytest</span><span>REST</span>
+    </div>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="section-header reveal">
+    <h2 class="title glitch" data-text=">_ CONTACT.SH">&gt;_ CONTACT.SH</h2>
+    <hr class="divider">
+</div>
+
+<div class="contact-box">
+
+<div class="terminal reveal">
+<pre>
+Name      : SONU
+Status    : B.Tech CSE Student
+Email     : sbaji6357@gmail.com
+Discord   : discord.gg/3kFnQUdcY
+Instagram : @brx_zzzzzzz
+
+AVAILABLE FOR PROJECTS
+</pre>
+</div>
+
+<form class="reveal">
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea rows="8" placeholder="Message"></textarea>
+<button>SEND MESSAGE</button>
+</form>
+
+</div>
+</section>
+
+<footer>
+© 2026 SONU | All Rights Reserved
+<br><br>
+<div class="footer-anim glitch">sonu dev &lt; / &gt;</div>
+<div class="footer-contact">contact sbaji6357@gmail.com</div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
